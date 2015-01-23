@@ -26,7 +26,7 @@ Result:
 
 #### `almostEqual = Fuzz(t[, epsilon[, relativeTolerance]])`
 
-Returns an `almostEqual` function that operates on the given `test` instance of [tape](https://www.npmjs.com/package/tape), [tap](https://www.npmjs.com/package/tap) and similar interfaces.
+Returns an `almostEqual` function that operates on the given `test` instance of [tape](https://www.npmjs.com/package/tape), [tap](https://www.npmjs.com/package/tap) and similar interfaces. Epsilon defaults to float precision. Relative tolerance defaults to epsilon value. 
 
 The function has the signature:
 
