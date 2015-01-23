@@ -1,0 +1,46 @@
+{
+  "name": "test-fuzzy-array",
+  "version": "1.0.0",
+  "description": "tap/tape utility to compare arrays with an epislon",
+  "main": "index.js",
+  "license": "MIT",
+  "author": {
+    "name": "Matt DesLauriers",
+    "email": "dave.des@gmail.com",
+    "url": "https://github.com/mattdesl"
+  },
+  "dependencies": {
+    "almost-equal": "0.0.0",
+    "array-almost-equal": "^1.0.0"
+  },
+  "devDependencies": {
+    "tape": "^3.4.0"
+  },
+  "scripts": {
+    "test": "node test.js"
+  },
+  "keywords": [
+    "tap",
+    "tape",
+    "array",
+    "check",
+    "compare",
+    "equals",
+    "deepEquals",
+    "almostEquals",
+    "fuzzy",
+    "almost",
+    "epsilon",
+    "float",
+    "floating",
+    "precision"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Jam3/test-fuzzy-array.git"
+  },
+  "homepage": "https://github.com/Jam3/test-fuzzy-array",
+  "bugs": {
+    "url": "https://github.com/Jam3/test-fuzzy-array/issues"
+  }
+}
